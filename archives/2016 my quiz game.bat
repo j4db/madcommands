@@ -1,3 +1,5 @@
+Dont copy inside the box!
+===================================================================================
 rem Quiz Game By: BenHeroPH
 rem dont mind this this is just archive :D
 rem but if you want to run this just copy and paste it to the note pad
@@ -7,8 +9,8 @@ rem
 rem Original Copy: https://www.facebook.com/benjccelpedes/posts/999437310129252
 cls
 
-
-
+=====================================================================================
+--- START COPY HERE ---
 @echo off
 color 6a
 :Menu
