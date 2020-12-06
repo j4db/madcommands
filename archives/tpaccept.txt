@@ -1,0 +1,12 @@
+1 if %level% = "desert" then goto 4
+2 message %p% You can only use this on Survival!
+3 exit
+4 %player% = %args%[1]
+5 %all% = onlineplayers()
+6 if varset(%player%) = %false% then message %p% Usage: /tpaccept
+7 if varset(%player%) = %false% then exit
+8 if %player% notin %all% then message %p% TPACCEPT » %player% isn't online.
+9 if %player% notin %all% then exit
+10 if %player% = %p% then message %p% TPACCEPT » You can't do this to yourself.
+11 if %player% = %p% then exit
+12 ascon /rca %p% t
