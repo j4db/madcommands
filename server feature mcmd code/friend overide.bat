@@ -1,4 +1,8 @@
 ========================================
+HYPERCRAFT /friend override Mad Commands codes
+IP a64975.leet.cc Port 64975
+
+
 Ifriend plugin Override Madcmd command
 -STABLE- 
 
@@ -91,7 +95,7 @@ cmd insert friend 105 exit
 
 // /friend help
 
-cmd insert friend 200 message %p% \"§f---- §eFriend List Command §f----\"
+cmd insert friend 200 message %p% \"§f---- §e HC Friend List Command §f----\"
 cmd insert friend 201 message %p% \"§6/friend §eadd §g<Exact name>§f -§7 Add your friend.\"
 cmd insert friend 202 message %p% \"§6/unfriend§f -§7 to unfriend your friend.\"
 cmd insert friend 203 message %p% \"§6/friend §etp §g<Exact name>§f -§7 teleport to your friend.\"
