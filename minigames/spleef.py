@@ -20,8 +20,8 @@ cmd add fish if varset(%p8%) = %true% then move %p8% world 1000 5 1000
 cmd add spleef if size(%pvp%) = 8 then goto 18
 cmd add spleef exit 
 cmd add spleef ascon /cmd run Swin 
-cmd add spleef load %pvp% 
-cmd add spleef message %p% §eThe game is starting in §c10 §eseconds!
+cmd add spleef load %pvp%
+cmd add spleef message %p% §eThe game is starting in §c10 §eseconds
 cmd add spleef sound %level% %x% %y% %z% 1000 0 0
 cmd add spleef sleep 5
 cmd add spleef message %p% §eThe game starts in §c5 §eseconds! 
@@ -85,5 +85,5 @@ cmd unregister swin
 mad commands SPLEEF
 ALPHA
 -------------------->
-
+separate command si fish? 
 
